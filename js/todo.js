@@ -6,7 +6,7 @@ const Todo = () =>{
    const list = $('<div class="list"></div>');
    const hr = $('<hr>');
    const completedTitle = $('<p>Completed Items</p>');
-   const completedList = $('<div class="completed"></div>');
+   const completedList = $('<div class="completed checked"></div>');
 
    parent.append(input);
    parent.append(todoTitle);
